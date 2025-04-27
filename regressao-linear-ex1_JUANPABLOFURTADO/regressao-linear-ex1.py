@@ -181,6 +181,28 @@ def main():
     plt.savefig("Figures/superficie_trajetoria.png", dpi=300, bbox_inches='tight')
     plt.savefig("Figures/superficie_trajetoria.svg", format='svg', bbox_inches='tight')
     plt.show()
+    # --- COMPARAÇÃO DE INICIALIZAÇÃO DOS PESOS ---
+    # Fixar alpha = 0.01
+    alpha_fixed = 0.01
+    thetas_init = [np.array([0, 0]), np.array([5, 5]), np.array([-5, 5])]
+    np.random.seed(42)
+    for _ in range(3):
+        thetas_init.append(np.random.uniform(-10, 10, 2))
+    
+    plt.figure(figsize=(8, 5))
+    plt.contour(theta0_vals, theta1_vals, j_vals, levels=np.logspace(-2, 3, 20))
+    for i, th_init in enumerate(thetas_init):
+        _, _, th_hist = gradient_descent(x_aug, y, th_init, alpha_fixed, iterations)
+        plt.plot(th_hist[:, 0], th_hist[:, 1], marker='o', label=f'θ inicial = {th_init}')
+        plt.scatter(th_init[0], th_init[1], s=40, marker='x')
+    plt.xlabel(r'$\theta_0$')
+    plt.ylabel(r'$\theta_1$')
+    plt.title('Contorno da Função de Custo: trajetórias p/ θ inicial distintos')
+    plt.legend()
+    plt.grid(True)
+    plt.savefig('Figures/contorno_inicializacao_theta.png', dpi=300, bbox_inches='tight')
+    plt.savefig('Figures/contorno_inicializacao_theta.svg', format='svg', bbox_inches='tight')
+    plt.show()
 
 if __name__ == '__main__':
     main()
