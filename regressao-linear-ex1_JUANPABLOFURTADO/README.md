@@ -11,11 +11,6 @@
 ### Engenharia da Computação
 ### Disciplina: EECP0053 - TÓPICOS EM ENGENHARIA DA COMPUTAÇÃO II - FUNDAMENTOS DE REDES NEURAIS
 ### Assunto: Regressão Linear
-
-**Professor:** Dr. Thales Levi Azevedo Valente\  
-**E-mail:** thales.levi@ufma.br / thales.l.a.valente@gmail.com\  
-**Semestre:** 2025.1\
-
 ---
 
 ## 🎯 Objetivos
@@ -68,7 +63,7 @@ Obs > não esqueça de colocar legendas nas Figuras e explicá-las !!!!!!!!!!!
 ## 🗂️ Estrutura do Repositório GitHub
 
 ```
-regressao-linear-ex1_<SeuNome>/
+regressao-linear-ex1_JUANPABLOFURTADO/
 │
 ├─ Figures/                # gráficos (.png e .svg)
 │
@@ -127,61 +122,16 @@ Esse script irá:
 
 ---
 
-## Commits (Boas práticas – **Bônus**)
-
-Bônus extras serão concedidos pelo uso consistente dos *commit types* abaixo:
-
-| Tipo      | Descrição                                                                            |
-|-----------|---------------------------------------------------------------------------------------|
-| **feat**  | Nova funcionalidade ou implementação significativa                                    |
-| **fix**   | Correção de erros ou bugs                                                             |
-| **chore** | Manutenção geral (configuração, organização de arquivos)                             |
-| **docs**  | Atualizações ou adições em documentação                                               |
-| **style** | Mudanças de formatação (espaços em branco, indentação)                               |
-| **refactor** | Melhorias de código sem adicionar novas funcionalidades                           |
-| **test**  | Adição de testes automatizados                                                        |
-| **perf**  | Melhorias de desempenho                                                               |
-| **ci**    | Alterações em configuração de integração contínua                                     |
-| **build** | Modificações que afetam o processo de build ou dependências                           |
-
----
-
-## 📅 Submissão
-
-- **Data limite:** `26/05/2025` (até 11h59 Brasília)  
-- Enviar **somente** o link do repositório Git no SIGAA.  
-- Commits devem refletir participação individual; integrantes sem contribuições significativas serão desconsiderados.  
-- Tentativas de burla via histórico de commits acarretam **nota zero** para todos os envolvidos.  
-- Submissões fora do prazo ou por outros meios serão ignoradas.
-
----
-
-## 📋 Critérios de Avaliação
-
-| Critério                                             | Pesos  |
-|------------------------------------------------------|--------|
-| Implementação correta dos exercícios de aquecimento  | 2.0    |
-| Implementação correta e geração dos gráficos         | 2.5    |
-| Experimentos com α                                   | 0.25   |
-| Experimentos com θ                                   | 0.25   |
-| Qualidade da análise escrita                         | 3.0    |
-| Organização do código e uso do Git                   | 2.0    |
-| Encontrar erros e sugerir melhorias                  | 3.0(ex)|
-
----
-
-**Boa sorte!**
 
 Dúvidas, estou à disposição por e-mail ou em sala.
 
 ## Reconhecimentos e Direitos Autorais
 
 ```
-@autor:                [Seu Nome]  
+@autor:                Juan Pablo Furtado Mondego Macedo 
 @contato:              [Seu Email]  
-@data última versão:   20/04/2025  
+@data última versão:   26/04/2025  
 @versão:               1.0  
-@outros repositórios:  [URLs opcionais]  
 @Agradecimentos:       Universidade Federal do Maranhão (UFMA),  
                        Prof. Dr. Thales Levi Azevedo Valente, thales.l.a.valente@gmail.com
                        https://www.linkedin.com/in/thalesvalente/
